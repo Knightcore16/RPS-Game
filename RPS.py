@@ -13,7 +13,7 @@ while True:
 # noinspection SpellCheckingInspection
 ailist = ["Rock", "Paper", "Scissors"]
 ai = random.choice(ailist)
-time.sleep(0.9)
+time.sleep(0.8)
 print("Computer:" + " " + ai)
 
 # Results
@@ -26,7 +26,7 @@ elif player == "Paper" and ai == "Rock":
     print('Player wins')
 elif player == "Scissors" and ai == "Paper":
     print('Player wins')
-# Computer
+# Computer wins
 elif player == "Scissors" and ai == "Rock":
     print('Computer wins')
 elif player == "Rock" and ai == "Paper":
